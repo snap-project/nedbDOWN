@@ -1,0 +1,27 @@
+{
+  "name": "nedbDOWN",
+  "version": "0.0.0",
+  "description": "NEDB LevelUp backend",
+  "main": "nedbdown.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snap-project/nedbDOWN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snap-project/nedbDOWN/issues"
+  },
+  "homepage": "https://github.com/snap-project/nedbDOWN",
+  "dependencies": {
+    "abstract-leveldown": "^0.11.3",
+    "nedb": "^0.10.4"
+  },
+  "devDependencies": {
+    "tape": "^2.5.0",
+    "rimraf": "^2.2.6"
+  }
+}
