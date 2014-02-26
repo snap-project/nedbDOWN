@@ -2,7 +2,7 @@
   "name": "nedbDOWN",
   "version": "0.0.0",
   "description": "NEDB LevelUp backend",
-  "main": "nedbdown.js",
+  "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -18,7 +18,9 @@
   "homepage": "https://github.com/snap-project/nedbDOWN",
   "dependencies": {
     "abstract-leveldown": "^0.11.3",
-    "nedb": "^0.10.4"
+    "nedb": "^0.10.4",
+    "bops": "^0.1.1",
+    "async": "^0.2.10"
   },
   "devDependencies": {
     "tape": "^2.5.0",
