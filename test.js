@@ -19,7 +19,7 @@ require('abstract-leveldown/abstract/put-test').all(NedbDOWN, tape, testCommon)
 require('abstract-leveldown/abstract/put-get-del-test').all(NedbDOWN, tape, testCommon, testBuffer, process.browser && Uint8Array)
 
 require('abstract-leveldown/abstract/batch-test').all(NedbDOWN, tape, testCommon)
-//require('abstract-leveldown/abstract/chained-batch-test').all(NedbDOWN, tape, testCommon)
+require('abstract-leveldown/abstract/chained-batch-test').all(NedbDOWN, tape, testCommon)
 
 require('abstract-leveldown/abstract/close-test').close(NedbDOWN, tape, testCommon)
 
